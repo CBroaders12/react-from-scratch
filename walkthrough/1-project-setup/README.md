@@ -37,8 +37,9 @@ Inside of the `public/index.html` file, write the following boilerplate
     <title>React from Scratch</title>
   </head>
   <body>
-    <noscript>You need to enable Javascript to run this application</noscript>
-    <script src="../dist/bundle.js"></script>
+    <div id="root"></div>
+      <noscript>You need to enable Javascript to run this application</noscript>
+      <script src="../dist/bundle.js"></script>
   </body>
 </html>
 ```
