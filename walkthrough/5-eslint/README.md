@@ -143,4 +143,4 @@ And with that you have a customer project starter for React with linting. There 
 
 ---
 
-[Previous Module](../4-css-styling)
+[<<< Previous Module](../4-css-styling)

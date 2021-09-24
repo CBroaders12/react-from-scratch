@@ -151,5 +151,5 @@ Before we move on, double-check that your file structure is similar to the one b
 
 ---
 
-[Previous Module](../2-webpack-config)
-[Next Module](../4-css-styling)
+[<<< Previous Module](../2-webpack-config) ---
+[Next Module >>>](../4-css-styling)
