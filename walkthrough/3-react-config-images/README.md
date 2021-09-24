@@ -46,7 +46,7 @@ ReactDOM.render(<App />, document.getElementById('root'));
 ```
 
 If you save it and then try to run your project you should get an error like this.
-![](./3-react-config-images/loader-error.png)
+![](./screenshots/loader-error.png)
 
 But why did it break? It was all working fine until we updated `index.js`. Well, it has to do with JSX.
 
@@ -124,7 +124,9 @@ module.exports = {
 ```
 
 Once you have added those configurations, if you restart you application you should see it is running correctly.
-![](./3-react-config-images/browser-display.png)
+
+![](./screenshots/browser-display.png)
+
 Congratulations! You just got displayed JSX in the browser. Next up, let’s see if we can add some basic styles using CSS.
 
 ---

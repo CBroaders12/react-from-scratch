@@ -9,6 +9,7 @@ cd react-webpack-linting-starter
 ```
 
 Inside of the project folder let’s create a couple of directories and files
+
 ```shell
 mkdir public src
 touch public/index.html
@@ -29,23 +30,27 @@ Inside of the `public/index.html` file, write the following boilerplate
 ```html
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>React from Scratch</title>
-</head>
-<body>
-  <noscript>You need to enable Javascript to run this application</noscript>
-  <script src="../dist/bundle.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React from Scratch</title>
+  </head>
+  <body>
+    <noscript>You need to enable Javascript to run this application</noscript>
+    <script src="../dist/bundle.js"></script>
+  </body>
 </html>
 ```
 
- You’ll notice that we are not connecting the `src/index.js` file that we created earlier. We’ll explain why later in the lesson. For now, let’s get Webpack installed.
-- - - -
+You’ll notice that we are not connecting the `src/index.js` file that we created earlier. We’ll explain why later in the lesson. For now, let’s get Webpack installed.
+
+---
+
 ## Current folder structure
-Before we move on,  double check that you folder structure looks like this.
+
+Before we move on, double check that you folder structure looks like this.
+
 ```
 ├── public
 │   └── index.html

@@ -90,7 +90,8 @@ npm run build
 ```
 
 You should see a `/dist` folder generate in your project which contains all of the files your html page will link to. Run Live Server on your html file and you should get… An empty webpage?
-![](./2-webpack-config-images/browser-window.png)
+
+![](./screenshots/browser-window.png)
 
 Let’s write something in our `index.js` file.
 
@@ -101,7 +102,8 @@ console.log('Hello from index.js');
 If we save the file, now what?
 
 It should still be a blank page, but take a look in the browser’s console.
-![](./2-webpack-config-images/console.png)
+
+![](./screenshots/console.png)
 
 Webpack is bundling your files and your `index.html` file is using the bundled file we configured earlier.
 

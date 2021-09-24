@@ -44,7 +44,8 @@ export default App;
 When using CSS modules, the styles are imported as an object, which can then be used to apply class styles to a specific component using the `className` property.
 
 If we take a look at our website, what do we have?
-![](./4-css-styling-images/style-loader-error.png)
+
+![](./screenshots/style-loader-error.png)
 
 It looks like we don’t have the right loader set up. As is, Webpack doesn’t know how to handle CSS files, so we will need to tell it what to do with them. For that we will need to install 2 more packages.
 
@@ -107,7 +108,9 @@ module.exports = {
 ```
 
 With these configurations added, open up your webpage and you should see this.
-![](./4-css-styling-images/working-styles.png)
+
+![](./screenshots/working-styles.png)
+
 We did it. Now you can use CSS modules throughout your project so you aren’t just serving plain old HTML. Adding support for Sass or Less is as simple as downloading and setting up the appropriate loaders. Now, let’s see if we can lay down some coding practices and styles for the whole project using linting.
 
 ---

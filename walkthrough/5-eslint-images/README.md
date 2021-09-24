@@ -14,7 +14,7 @@ ESLint is one of the most popular linters for JavaScript and will be the one tha
 
 Before we get started with ESLint in the project, let’s download a helpful VS Code extension that will highlight errors and warnings triggered by our linting rules. The extension is **ESLint** and it is pictured below.
 
-![](./5-eslint-images/eslint-extension.png)
+![](./screenshots/eslint-extension.png)
 
 Once you have it installed from the extensions marketplace, we can move along with our ESLint installation in our project.
 
@@ -81,7 +81,8 @@ Once you have all of that downloaded, you should see that a `.eslintrc.json` fil
 ```
 
 You’ll also see that some of you files are giving you errors now when you open them. That means ESLint is working, so now let’s use it.
-![](./5-eslint-images/file-tree-errors.png)
+
+![](./screenshots/file-tree-errors.png)
 
 ---
 
@@ -100,7 +101,7 @@ Let’s add a script to our `package.json` to take advantage of ESLint.
 
 If we run `npm run lint:check` what do we see?
 
-![](./5-eslint-images/terminal-errors.png)
+![](./screenshots/terminal-errors.png)
 
 We’re getting some specific errors about styling and syntax, thanks to the prepackaged ESLint rules we got from the Airbnb style guide. Let’s fix a couple of them.
 
@@ -108,11 +109,11 @@ Two of the errors seem to be complaining that JSX should have the `.jsx` file ex
 
 Once we do that, you should see the error on the newly renamed `index.jsx` go away, but it looks like we still have an error in `App.jsx`. Let’s take a look at that one.
 
-![](./5-eslint-images/in-file-error.png)
+![](./screenshots/in-file-error.png)
 
 If you hover over the error, you should see something like the following.
 
-![](./5-eslint-images/esling-arrow-rule.png)
+![](./screenshots/esling-arrow-rule.png)
 
 ESLint doesn’t like that we are using block body when all we are doing is returning something. The style guide we are using says we should use implicit return. If you don’t remember what that means take a second to review how fat arrow functions work.
 
