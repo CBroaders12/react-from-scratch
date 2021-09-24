@@ -179,3 +179,8 @@ Before we move on, double-check that your file structure is similar to the one b
 ├── package.json
 └── webpack.config.js
 ```
+
+---
+
+[Previous Module](../1-project-setup)
+[Next Module](../3-react-config)

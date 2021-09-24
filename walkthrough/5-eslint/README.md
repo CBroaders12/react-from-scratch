@@ -140,3 +140,7 @@ Once you save that, the error in our `App.jsx` should go away. And just like tha
 ## Complete?
 
 And with that you have a customer project starter for React with linting. There are a ton of additional configurations and add-ons that you can make use of, such as webpack loaders for files like images, style libraries like Sass or Less, or even enabling TypeScript. You can get even more specific about your own coding style with ESLint rules and other Linting libraries. Go ahead and use this framework and make it your own by adding additional loaders, or configuring more ESLint rules to make the project work for you.
+
+---
+
+[Previous Module](../4-css-styling)

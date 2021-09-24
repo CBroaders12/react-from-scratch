@@ -133,3 +133,8 @@ Before we move on, double-check that your file structure is similar to the one b
 ├── package.json
 └── webpack.config.js
 ```
+
+---
+
+[Previous Module](../3-react-config)
+[Next Module](../5-eslint)

@@ -148,3 +148,8 @@ Before we move on, double-check that your file structure is similar to the one b
 ├── package.json
 └── webpack.config.js
 ```
+
+---
+
+[Previous Module](../2-webpack-config)
+[Next Module](../4-css-styling)

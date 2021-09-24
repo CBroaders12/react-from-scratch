@@ -59,3 +59,7 @@ Before we move on, double check that you folder structure looks like this.
 ├── package-lock.json
 └── package.json
 ```
+
+---
+
+[Next Module](../2-webpack-config)
