@@ -5,7 +5,7 @@
 Now we are ready to add the react packages we need. For this framework, we will only be adding the `react` and `react-dom` packages. Let’s go ahead and get those installed.
 
 ```shell
-npm install --save react react-dom
+npm install react react-dom
 ```
 
 ---
