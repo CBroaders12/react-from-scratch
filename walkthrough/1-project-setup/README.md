@@ -1,6 +1,8 @@
 # 1 - Project Setup
 
-Start by creating a directory for this project
+Start by creating a directory for this project.
+
+If you’re on Mac you can use the following commands to build out the folder structure, otherwise you can build out the structure in VS Code to match the structure at the bottom of this module.
 
 ```shell
 cd <WorkspaceFolder>
