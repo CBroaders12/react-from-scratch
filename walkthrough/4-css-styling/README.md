@@ -136,5 +136,5 @@ Before we move on, double-check that your file structure is similar to the one b
 
 ---
 
-[<<< Previous Module](../3-react-config) ---
-[Next Module >>>](../5-eslint)
+[<<< Previous Module - React Configuration](../3-react-config) ---
+[Next Module - ESLint >>>](../5-eslint)

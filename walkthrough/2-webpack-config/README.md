@@ -182,5 +182,5 @@ Before we move on, double-check that your file structure is similar to the one b
 
 ---
 
-[<<< Previous Module](../1-project-setup) ---
-[Next Module >>>](../3-react-config)
+[<<< Previous Module - Project Setup](../1-project-setup) ---
+[Next Module - React Configuration >>>](../3-react-config)

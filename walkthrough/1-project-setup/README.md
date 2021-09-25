@@ -65,4 +65,4 @@ Before we move on, double check that you folder structure looks like this.
 
 ---
 
-[Next Module >>>](../2-webpack-config)
+[Next Module - Webpack Configuration >>>](../2-webpack-config)
