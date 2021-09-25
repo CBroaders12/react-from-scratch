@@ -56,7 +56,7 @@ Webpack, by default, only knows how to parse plain javascript. It can’t load a
 
 ## Babel
 
-Babel is a tool that can translate new, cutting edge JavaScript into JavaScript older browsers can understand, since not every new feature gets implemented in every browser at the same time. Especially useful for us, it can also translate JSX into vanilla Javascript that Webpack and the browser can understand. If you are curious to learn more about Babel take a bit and read through some of [Babel · The compiler for next generation JavaScript](https://babeljs.io/).
+Babel is a tool that can translate new, cutting edge JavaScript into JavaScript older browsers can understand, since not every new feature gets implemented in every browser at the same time. Especially useful for us, it can also translate JSX into vanilla Javascript that Webpack and the browser can understand. If you are curious to learn more about Babel take a bit and read through some of [the Babel docs](https://babeljs.io/).
 
 In order for us to make use of babel, we need to download a few more packages.
 
