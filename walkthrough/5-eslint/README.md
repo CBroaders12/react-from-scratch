@@ -59,9 +59,9 @@ What format do you want your config file to be in?
 
 Once all those questions are answered it will ask to download some additional dependencies. Answer **YES** to that. These are all the packages that contain all the rules for the style guide we selected and some React specific rules.
 
-Once you have all of that downloaded, you should see that a `.eslintrc.json` file has been generated that looks like this.
+Once you have all of that downloaded, you should see that a `.eslintrc.json` file has been generated. It will have most of the configuration done, but we are going to add one setting at the bottom just so that our `/dist` folder doesn't throw hundreds of errors when you get eslint running.
 
-```json
+```diff
 {
   "env": {
     "browser": true,
@@ -76,7 +76,8 @@ Once you have all of that downloaded, you should see that a `.eslintrc.json` fil
     "sourceType": "module"
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {},
++ "ignorePatterns": "/dist"
 }
 ```
 
